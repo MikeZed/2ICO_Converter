@@ -23,6 +23,9 @@ def main():
 
 
 
+class Image_Converter:
+    pass
+
 
 
 
