@@ -2,17 +2,11 @@
 from PIL import Image
 import os
 
-source = r"E:\My Stuff\Images\Icons\Conversion\To Be Converted"
-destination = r"E:\My Stuff\Images\Icons\Conversion\Converted"
+source = r"Icons\To Be Converted"
+destination = r"Icons"
 
 
 def main():
-
-    # if destination doesnt exist create folder
-
-    # check files in folder, open, convert, save
-
-    # add converting class
 
     img_converter = ImageConverter(source, destination)
     img_converter.convert()
