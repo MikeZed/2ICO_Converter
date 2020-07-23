@@ -2,8 +2,8 @@
 from PIL import Image
 import os
 
-source = r"E:\My Stuff\Images\Icons\Conversion\To Be Converted"
-destination = r"E:\My Stuff\Images\Icons\Conversion\Converted"
+source = r"Conversion\To Be Converted"
+destination = r"Conversion\Converted"
 
 
 def main():
