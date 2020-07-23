@@ -1,8 +1,8 @@
 
+from PIL import Image
 
-
-folder_to_convert = ''
-destination = ''
+folder_to_convert = r'E:\My Stuff\Images\Icons\g.png'
+destination = r'E:\My Stuff\Images\Icons\g.ico'
 
 
 def main():
@@ -14,12 +14,10 @@ def main():
     # add converting class
 
 
-    pass
-
-
-
-
-
+    img = Image.open(folder_to_convert)
+    img.show()
+    print(img)
+    img.save(destination)
 
 
 
@@ -30,15 +28,6 @@ class Image_Converter:
 
 
 
+if __name__== "__main__":
 
-
-
-
-
-
-
-
-
-
-if __name__=='main':
     main()
