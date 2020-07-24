@@ -5,7 +5,7 @@ import os
 source = r"Icons\To Be Converted"
 destination = r"Icons"
 destination_format = ".png"
-123123123
+
 
 def main():
 
