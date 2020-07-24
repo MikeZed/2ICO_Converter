@@ -1,7 +1,7 @@
 
 from PIL import Image
 import os
-123123
+
 source = r"Icons\To Be Converted"
 destination = r"Icons"
 destination_format=".png"
