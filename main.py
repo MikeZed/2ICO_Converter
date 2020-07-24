@@ -4,7 +4,7 @@ import os
 
 source = r"Icons\To Be Converted"
 destination = r"Icons"
-destination_format=".png"
+destination_format = ".png"
 
 
 def main():
@@ -25,8 +25,8 @@ class ImageConverter:
         for img_file in img_list:
             img_name = img_file.split('.')[0]
 
-            img=Image.open(self.source+"\\"+img_file)
-            img.save(self.destination+"\\"+img_name + self.destination_format)
+            img=Image.open(self.source+"\\" + img_file)
+            img.save(self.destination+"\\" + img_name + self.destination_format)
 
 
 if __name__ == "__main__":
